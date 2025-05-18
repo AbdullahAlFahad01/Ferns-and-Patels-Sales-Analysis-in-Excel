@@ -1,64 +1,81 @@
-# 🏨 Hotel Booking Cancellation Analysis
+# 📊 Dablymart Sales Analysis Dashboard
 
-## 📌 Project Overview
-
-This project analyzes hotel booking cancellations to identify trends and key influencing factors. Using Microsoft Excel, we perform in-depth data analysis through **Pivot Tables**, **Power Query**, and **Conditional Formatting**. The dataset includes bookings from both **City** and **Resort Hotels**, covering guest types, booking statuses, room preferences, and monthly arrival data.
+An Excel-based interactive **sales dashboard** analyzing Dablymart's performance across categories, cities, and time. This dashboard was created using **Excel Pivot Tables**, **Power Query**, **Power Pivot**, **Slicers**, **Conditional Formatting**, and **Data Modeling** techniques.
 
 ---
 
-## 🎯 Project Goals
+## 🧩 Project Overview
 
-- Understand cancellation patterns across hotel types, guest types, and time periods.
-- Discover how room assignment preferences influence cancellations.
-- Use Excel’s advanced tools (Power Query, Pivot Tables) for cleaning and analyzing data.
-- Visualize the findings for better business decision-making.
+The Dablymart Sales Dashboard summarizes the company's sales metrics through an engaging and user-friendly layout. With real-time filtering capabilities, it enables business users to drill down into revenue data by **category, city, month, hour**, and **occasion**.
 
----
-
-## 📊 Excel Features Used
-
-- ✅ **Power Query**: Data cleaning, formatting, and transformation.
-- ✅ **Pivot Tables**: For aggregating and analyzing trends by month, guest type, room status, etc.
-- ✅ **Conditional Formatting**: Highlighting high-cancellation periods or groups.
-- ✅ **Charts & Dashboards**: For visual storytelling using column, line, and pie charts.
+This dashboard is designed for **quick decision-making**, performance tracking, and identifying sales trends or high-performing product segments.
 
 ---
 
-## 📈 Key Insights
+## 🎯 Project Goal
 
-### 🏨 Cancellation by Hotel Type
-- **City Hotel** accounts for **75%** of total cancellations (33,102).
-- **Resort Hotel** has a lower share, with **11,122 cancellations (25%)**.
-- Indicates higher unpredictability or dissatisfaction in City Hotel bookings.
-
-### 📅 Cancellation by Month
-- **August** and **July** have the highest cancellations, aligning with peak travel seasons.
-- Lowest cancellations observed in **January** and **December**.
-
-### 👥 Guest Type Analysis
-- **Couples** are the most frequent guests and have the highest cancellation count (32,424).
-- **Families** and **Singles** show significantly lower cancellation volumes.
-
-### 🛏️ Room Preference Impact
-- Guests with **desired room status** cancelled more (43,422) than those with **un-desired status** (802), suggesting that cancellation is more influenced by external factors (e.g., price, location, or timing) rather than room preference.
+- Present an interactive sales analysis using **Microsoft Excel** tools.
+- Identify top-performing **products**, **categories**, **cities**, and **occasions**.
+- Analyze **order patterns** by **month**, **hour**, and **day of the week**.
+- Support business decisions with **data-driven insights**.
 
 ---
 
-## 🖼️ Visual Insights
+## 📌 Key Insights
 
-### Cancellation by Hotel Type & Month
-![Hotel Cancellation](Hotel-%20Cancellation.PNG)
+- **Total Revenue**: `$2,431,176`
+- **Average Delivery Days**: `5.53`
+- **Average Customer Spend**: `$3,560`
+- **Total Orders**: `683`
+- **Total Quantity Sold**: `2,098`
 
-### Guest Type & Room Status Cancellation
-![Hotel Cancellation 2](Hotel-Cancellation%202.PNG)
+### 📊 Revenue by Category:
+- **Colors** generated the highest revenue (over 600K).
+- **Soft Toys** and **Sweets** followed closely behind.
+
+### 🕓 Revenue by Hour:
+- Peak order times occurred around **23:00**, **20:00**, and **17:00 hours**.
+
+### 📅 Revenue by Month:
+- **February**, **March**, **August**, and **November** were strong sales months.
+
+### 🌇 Top 5 Cities by Revenue:
+- **Imphal**, **Dibrugarh**, and **Kavali** were top revenue contributors.
+
+### 🎁 Top Products by Revenue:
+- Highest-selling items include:
+  - **Magnam Set**
+  - **Expedita Gift**
+  - **Deserunt Box**
+  - **Quia Gift**
+  - **Exercitatione...**
+
+### 🎉 Revenue by Occasion:
+- **Anniversary** and **Raksha Bandhan** occasions generated over **500K** in revenue.
+- **Birthday** and **Valentine's Day** also contributed significantly.
 
 ---
 
-## 🧠 Conclusion
+## 🛠️ Technologies Used
 
-By leveraging Excel’s analytical tools, we were able to uncover patterns in booking behavior and cancellation tendencies. This project demonstrates how simple tools like Excel can provide actionable business insights when used effectively.
+| Tool/Feature           | Purpose                                |
+|------------------------|----------------------------------------|
+| **Excel Pivot Tables** | Aggregation & summary of data          |
+| **Power Query**        | Data cleaning and transformation       |
+| **Power Pivot**        | Data modeling and relationship building|
+| **Slicers**            | Interactive filtering by day & occasion|
+| **Conditional Formatting** | Highlighting KPIs and outliers    |
+| **Charts**             | Visual representation of insights      |
 
-Hotel managers can use these findings to:
-- Focus retention strategies on high-risk periods (like August).
-- Review city hotel service issues.
-- Adjust marketing towards guest types with lower cancellation probabilities.
+---
+
+## 📂 Dashboard Preview
+
+![Dablymart Sales Dashboard](Dashbooard.png)
+
+---
+
+
+
+Created by **Abdullah Al Fahad**, a data analyst with expertise in Excel, Power BI, SQL, and Python. Passionate about transforming data into actionable business insights.
+
